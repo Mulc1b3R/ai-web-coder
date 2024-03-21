@@ -2,7 +2,6 @@
 import "../styles/Editor.css";
 import React from 'react';
 import CodeMirror from '@uiw/react-codemirror';
-import '@codemirror/lang-python';
 // import { javascript } from '@codemirror/lang-javascript';
 // import { css } from '@codemirror/lang-css';
 // import { html } from '@codemirror/lang-html';
