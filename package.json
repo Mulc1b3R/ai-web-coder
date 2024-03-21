@@ -4,6 +4,7 @@
   "homepage": "https://Mulc1b3R.github.io/theseus-ai",
   "private": false,
    "author":"mojo",
+   "main": "index.js", 
 
   "dependencies": {
     "@shoelace-style/shoelace": "^2.2.0",
