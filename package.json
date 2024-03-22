@@ -3,9 +3,8 @@
   "version": "0.2.0",
   "homepage": "https://Mulc1b3R.github.io/theseus-ai",
   "private": false,
-   "author":"mojo",
-   "main": "index.js", 
-
+  "author": "mojo",
+  "main": "index.js",
   "dependencies": {
     "@shoelace-style/shoelace": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@uiw/react-codemirror": "^4.19.9",
     "openai": "^3.2.1",
+    "qr-creator": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
