@@ -14,7 +14,14 @@ import AI from './model/AI';
 function App() {
 
 	const [html, setHtml] = useState("<h1>Hello world!</h1>");
-	const [css, setCss] = useState("");
+	const [css, setCss] = useState(`
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+  </style>
+`);
 	const [js, setJs] = useState("");
 	const [messages, setMessages] = useState([]);
 
