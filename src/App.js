@@ -117,6 +117,7 @@ function App() {
 						<Tab key="page" label="Preview" icon="card-image" >
 							<VirtualPage html={html} css={css} js={js} />
 						</Tab>
+						<Tab key="external-link" label="External Link" icon="link" url="https://godbolt.org/" />   
 						<Tab key="html" label="Elements" icon="code-slash">
 							<Editor language="html" displayName="HTML" value={html} onChange={setHtml} />
 						</Tab>
