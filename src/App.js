@@ -126,7 +126,9 @@ function App() {
 						<Tab key="js" label="Code" icon="braces">
 							<Editor language="javascript" displayName="JS" value={js} onChange={setJs} />
 						</Tab>
-					</TabList>
+						<Tab key="external" label="External Link" icon="link" url="https://www.external-link.com" />
+                </TabList>
+					
 				</div>
 				<div style={{width: "600px"}}>
 					<Chat messages={messages} addMessage={addMessage} loadingResponse={loadingResponse} usedTokens={usedTokens} moneySpent={moneySpent} />
