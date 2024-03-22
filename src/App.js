@@ -126,8 +126,7 @@ function App() {
 						<Tab key="js" label="Code" icon="braces">
 							<Editor language="javascript" displayName="JS" value={js} onChange={setJs} />
 						</Tab>
-						<Tab key="external" label="External Link" icon="link" url="https://www.external-link.com" />
-                </TabList>
+						</TabList>
 					
 				</div>
 				<div style={{width: "600px"}}>
