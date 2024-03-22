@@ -3,13 +3,13 @@ import './styles/App.css';
 import { useState } from 'react';
 import { SlButton, SlDialog, SlInput } from "@shoelace-style/shoelace/dist/react";
 
-import {TabList, Tab} from './components/Tabs';
-import VirtualPage from './components/VirtualPage';
-import Editor from './components/Editor';
-import Chat from './components/Chat';
+import {TabList, Tab} from './components/Tabs.js';
+import VirtualPage from './components/VirtualPage.js';
+import Editor from './components/Editor.js';
+import Chat from './components/Chat.js';
 
-import ChatMessage from './components/ChatMessage';
-import AI from './model/AI';
+import ChatMessage from './components/ChatMessage.js';
+import AI from './model/AI.js';
 
 function App() {
 
