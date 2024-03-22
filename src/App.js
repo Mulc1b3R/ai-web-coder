@@ -13,7 +13,7 @@ import AI from './model/AI';
 
 function App() {
 
-	const [html, setHtml] = useState("<h1>Hello world!</h1>");
+	const [html, setHtml] = useState("<br><br><center><h1>Theseus-AI</h1></center>");
 	const [css, setCss] = useState(`
   
     body {
